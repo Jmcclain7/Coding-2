@@ -25,3 +25,32 @@ def discount():
         print("sorry, you do not get a discount.")
 
 discount()
+
+# check age, GPA, 
+
+
+
+
+
+def qualifications(gpa, age):
+    if gpa >= 90 and age >= 17:
+        print('Congrats! You meet the req. for the job fair')
+    else:
+        print("Sorry, you dont meet req.") 
+
+# qualificationsCheck(78, 17)
+
+
+
+myGrades ={76, 87, 79, 84, 100, 81, 99, 72, 100, 98, 91}
+
+def gpa():
+    for grade in myGrades:
+        if grade < 85:
+            myGrades. remove(grade)
+        print(myGrades)
+
+    # function to remove() number from list
+    # we will need a loop
+    # if/else goal is to remove numbers > 85
+    # boolean for the number
