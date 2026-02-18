@@ -15,7 +15,7 @@ def discount():
         discount = .15
         sum = itemPrice * discount
         total = itemPrice - sum
-        Print("this is your final total "+ str(total))
+        print("this is your final total "+ str(total))
     elif itemPrice >75:
         discount = .25
         sum = itemPrice * discount
@@ -71,4 +71,15 @@ def gpa():
 # it has 
 
 class ComputerItem:
-    def _init_(self, color, shape, soundrOutput, brand)
+    def _init_(self, color, shape, soundrOutput, brand, ram, price, storage ):
+        self.color = color
+        self.shape = shape
+        self.soundOutput = soundrOutput
+        self.brand = brand
+        self.ram = ram
+        self.price = price
+        self.storage = storage
+        self.processor = ProcessLookupError
+
+apple_1 = Computers("apple m4", "black", 10.00, 320, True, True, 120, 'm4')
+apple_2 = Computers("apple m4", "white", 10.00, 320, True, True, 80, 'm4')
