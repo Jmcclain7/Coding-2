@@ -40,15 +40,30 @@ student1.is_In_Uniform()
 student2.updateGrade(70)
 
 
-
-
-
-
-
-
-
-
-
-
-
 #4
+
+class VGC:
+    def __init__(self, name, health, archetype, ammo, power,shootingPercent):
+        self.name = name
+        self.health = health
+        self.archetype = archetype
+        self.power = power 
+        self.ammo = ammo
+        self.shootingPercent = shootingPercent
+
+
+    # method FPS games
+    def fireWeapon(self, weapon):
+        if self,ammo
+    # method Fighting games
+    def block(self, damage):
+        damage = 0
+        return damage
+
+    def normalAttack(self, hitConnects, opponent):
+        if hitConnects:
+            opponent.health -= self.power
+
+
+    # method (Any) Sports games 
+    def shooting_2pt(self, shootingPercent):
