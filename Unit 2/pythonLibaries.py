@@ -13,3 +13,13 @@ print(random,randrange(1,10))
 
 # modules/ libraies help us to speed up development time and write less code,
 # because someone already wrote it for us.
+
+# local modules - functions and data from another document in our folder 
+#structure
+
+import example
+
+students = example.Student(20,'college','Billy',False)
+
+print(student.name)
+student.(student.is_in_uniform())
