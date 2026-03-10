@@ -1,0 +1,12 @@
+import userModule_p2
+
+userModule_p2.drive()
+
+car1 = userModule_p2.CarModel('Camry', 'black',60,2020)
+car2 = userModule_p2.CarModel_("Focus", 'silver',90,2021)
+
+print(car1.model)
+car2.speed()
+car1.speed()
+
+print(userModule_p2.grades)
