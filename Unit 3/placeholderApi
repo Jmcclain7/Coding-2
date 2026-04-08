@@ -1,0 +1,6 @@
+import request
+
+url = 'https://jsonplaceholder.typicode.com/posts/1'
+response = request.get(url)
+
+print(response.json())

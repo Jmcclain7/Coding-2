@@ -6,7 +6,6 @@
 # 1. In your own words, what is the difference between a python class and a python object?
 # Please write your resonse as a string data type. 
 
-# Question 1
 # The difference between python class and a python object is that a class is a blueprint for creating objects.
 # An object is an instance of a class that contains data. 
 
@@ -23,11 +22,13 @@
 # 1 method must take in a parameter and do some operation on the parameter
 # 1 method must do some type of conditional (if/else) logic. 
 
+
+
 class VideoGameCharacter:
     def_init_(self,name,level,attack power,health):
     self.name = name
     self.level = level
-    self.attack power = attack_power
+    self.attack_power = attack_power
     self.health = health
 
     def calculate damage(self):

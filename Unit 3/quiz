@@ -1,0 +1,16 @@
+if self.uniform == False:
+            print("this student has detention")
+        else:
+            print("student is good. no detention.")
+
+
+
+class Smartphone():
+        def_init_(self, brand,model, batteryLevel):
+            self.brand = brand
+            self.model = model
+            self.batteryLevel = batteryLevel
+        
+
+        def charge(self):
+            print("your battery level is currently "+ str(self.batteryLevel))
