@@ -4,3 +4,9 @@ url = 'https://jsonplaceholder.typicode.com/posts/1'
 response = request.get(url)
 
 print(response.json())
+
+url = 'https://bored-api.appbrewery.com/random'
+response = requests.get(url)
+
+print(response)
+print(response.json())
