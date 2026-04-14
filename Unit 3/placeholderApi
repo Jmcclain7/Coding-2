@@ -13,3 +13,53 @@ print(response.json())
 
 url = 'https://pokeapi.co/api/v2/{endpoint}/'
 response = request.get(url)
+
+query = "https;//pokeapi.co/api/v2/pokemon/pikachu"
+response = request.get(query)
+
+
+if response == 200:
+    data= response.json()
+
+    filtered_data = {
+        "name": data["name"],
+        "height": data["height"],
+        "weight": data["weight"],
+        "type": data["type"],
+        "abilities": [ability["ability"]["name"] for ability in data["abilities"]]
+
+    }
+
+    print(filtered_data)
+else:
+    print("data not found")
+    print(response.status_code)
+
+
+
+print(response)
+print(response.json())
+
+url = 'https://pokeapi.co/api/v2/{endpoint}/'
+response = request.get(url)
+
+query = "https;//pokeapi.co/api/v2/pokemon/charizard"
+response = request.get(query)
+
+
+if response == 200:
+    data= response.json()
+
+    filtered_data = {
+        "name": data["name"],
+        "height": data["height"],
+        "weight": data["weight"],
+        "type": data["type"],
+        "abilities": [ability["ability"]["name"] for ability in data["abilities"]]
+
+    }
+
+    print(filtered_data)
+else:
+    print("data not found")
+    print(response.status_code)
