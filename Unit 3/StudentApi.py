@@ -17,13 +17,20 @@ print(res.json())
 # Rick and Morty API -> return at least 3 rick and morty characters
 # https://rickandmortyapi.com/
 
-import requests
 url = "https://rickandmortyapi.com/api/character"
+res = requests.get(url)
+print(res.status_code)
 
-if response.status_code == 200:
-    data = response.json()
 
+if res.status_code == 200:
+    charData = re.json()
+    filtData ={
+        "name":charData["name"],
+        "gender":charData["gender"],
+        "image":charData["image"]
+    }
+    print(filtData)
 
-    characters = data['results']
-
-    print("Rick and Morty Characters")
+else:
+    print("somethings went wrong...")
+    print(res.status_code)
