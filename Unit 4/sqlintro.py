@@ -19,4 +19,5 @@ cursor.excute('''
               )''')
 cursor.excute('''
     INSERT INTO computers(model, color, hasWeb, memory, price)
-    VALUES('apple m4', 'blue', True, 8, 1500)''')
+    VALUES('apple m4', 'blue', True, 8, 1500)
+              ''')
